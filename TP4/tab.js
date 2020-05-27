@@ -50,3 +50,16 @@ function flatten2D(array){
     }
     return tab;
 }
+
+
+function tab(array){
+    for( a of array ){
+        console.log(a);
+    }
+    delete array[array.length - 1];
+    for( a of array ){
+        console.log(a);
+    }
+}
+
+

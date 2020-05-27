@@ -3,7 +3,8 @@ function main(){
     //longestWordTest();
     //rangeTest();
     //nbOccurencesTest();
-    flatten2DTest();
+    //flatten2DTest();
+    tabTest();
 }
 
 

@@ -24,3 +24,7 @@ function flatten2DTest(){
     console.log( flatten2D([[1,2], [3,4], [5,6]])); // [1, 2, 3, 4, 5, 6]
     console.log( flatten2D([[1,2], [3,4,5], [6]])); // [1, 2, 3, 4, 5, 6]
 }
+
+function tabTest(){
+    console.log( tab([42,404,1337]) )
+}
