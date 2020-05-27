@@ -29,5 +29,24 @@ function range(min, max, step){
 }
 
 function nbOccurences(wordList, word){
-    
+    let words = wordList.split(" ");
+    count = 0;
+    for(occur of words){
+        if(occur === word){
+            count++;
+        }
+    }
+    return count;
+}
+
+function flatten2D(array){
+    let tab = [];
+    let i = 0;
+    for(a of array){
+        for(b of a){
+            tab[i] = b;
+            i++;
+        }
+    }
+    return tab;
 }

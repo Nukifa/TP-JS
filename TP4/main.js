@@ -1,7 +1,9 @@
 function main(){
     //sumTest();
     //longestWordTest();
-    rangeTest();
+    //rangeTest();
+    //nbOccurencesTest();
+    flatten2DTest();
 }
 
 
